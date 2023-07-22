@@ -1,0 +1,131 @@
+.header{
+    height: 57px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+
+    border-bottom-width: 1px;
+    border-bottom-style: solid ;
+    border-bottom-color: rgb(221, 220, 220) ;
+
+    z-index: 1;
+}
+
+.left-section{
+    display: flex;
+    align-items: center;
+}
+.menu-icon{
+    height: 20px;
+    margin: 0px 20px;
+    object-fit: contain;
+}
+.youtube-logo{
+    height: 20px;
+}
+
+
+.middle-section{
+    display: flex;
+    align-items: center;
+    flex: 1;
+    margin-left: 70px;
+    margin-right: 40px;
+    max-width: 400px;
+}
+.search-bar:focus{
+    outline: none;
+}
+.search-bar{
+    flex: 1;
+    width: 0;
+    min-width: 0;
+    padding-left: 10px;
+    font-size: 16px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(165, 165, 165);
+    border-radius: 2px;
+    height: 34px;
+    box-shadow: inset 1px 2px 3px rgba(0,0,0,0.05);
+}
+
+.search-bar::placeholder{
+    font-family: Roboto, Arial;
+    font-size: 14px;
+    opacity: 0.8;
+}
+.search-button{
+    border-width: 1px;
+    margin-left: -1px;
+    width: 60px;
+    margin-right: 6px;
+    border-color:rgb(165, 165, 165);
+    height: 38px;
+    display: flex;
+    border-style: solid;
+    justify-content: center;
+    align-items: center;
+}
+.search-icon{
+    height: 25px;
+}
+
+.voice-button{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    display: flex;
+    border: none;
+    justify-content: center;
+    align-items: center;
+}
+.voice-icon{
+    height: 25px;
+}
+
+.right-section{
+    width: 180px;
+    margin-right: 24px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.upload-button{
+    height: 25px;    
+}
+.youtube-apps-button{
+    height: 25px;
+}
+.notifications-button{
+    height: 25px;
+}
+.logo-profile-button{
+    height: 35px;
+    border-radius: 100%;
+}
+.notifications-div{
+    position: relative;
+}
+.notifications-count{
+    position: absolute;
+    background-color: red;
+    color: #fff;
+    width: 15px;
+    font-family: Roboto, Arial;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 100%;
+    top:-2px;
+    right: -2px;
+    padding: 1px 1px;
+}
+

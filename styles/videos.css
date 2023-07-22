@@ -1,0 +1,51 @@
+.title{
+    width: 100%;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: black;
+    text-transform: capitalize;
+}
+
+.stats,
+.channel{
+    font-size: 10px;
+    margin-bottom: 3px;
+    color: rgb(105, 105, 105);
+}
+
+.thumbnail-image{
+    width: 100%;
+}
+
+.channel-details-div{
+    margin-left: 3px;
+}
+.profile-logo{
+    width: 100%;
+    border-radius: 100%;
+}
+.thumbnail-div{
+    margin-bottom: 10px;
+    position: relative;
+}
+.time-stamp{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 2px;
+    padding: 3px;
+    font-family: Roboto, sans-serif;
+}
+.video-details{
+    display: grid;
+    grid-template-columns: 30px 1fr;
+}
+.video-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 30px;
+}
