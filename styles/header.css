@@ -1,5 +1,5 @@
 .header{
-    height: 57px;
+    height: 64px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -9,11 +9,9 @@
     left: 0;
     right: 0;
     background-color: #fff;
-
     border-bottom-width: 1px;
     border-bottom-style: solid ;
     border-bottom-color: rgb(221, 220, 220) ;
-
     z-index: 1;
 }
 
@@ -22,8 +20,9 @@
     align-items: center;
 }
 .menu-icon{
-    height: 20px;
-    margin: 0px 20px;
+    height: 28px;
+    margin-left: 24px;
+    margin-right: 32px;
     object-fit: contain;
 }
 .youtube-logo{
@@ -33,6 +32,7 @@
 
 .middle-section{
     display: flex;
+    justify-self: center;
     align-items: center;
     flex: 1;
     margin-left: 70px;
@@ -72,9 +72,28 @@
     border-style: solid;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
+.voice-button .tooltip,
+.search-button .tooltip{
+    background-color: gray;
+    color: white;
+    font-size: 12px;
+    border-radius: 2px;
+    position: absolute;
+    bottom:-24px;
+    padding: 4px 8px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.voice-button:hover .tooltip,
+.search-button:hover .tooltip{
+    opacity: 1;
+}
+
 .search-icon{
-    height: 25px;
+    height: 24px;
 }
 
 .voice-button{
@@ -85,6 +104,7 @@
     border: none;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 .voice-icon{
     height: 25px;

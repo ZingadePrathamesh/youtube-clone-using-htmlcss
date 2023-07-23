@@ -1,9 +1,36 @@
 .side-bar{
+    display: flex;
+    flex-direction: column;
     position: fixed;
-    top: 58px;
+    background-color: white;
+    justify-content: start;
+    align-items: center;
+    top: 63px;
     bottom: 0;
     left: 0;
-
-    background-color: #c44e4e;
     width: 80px;
+    z-index: 2;
+}
+.sidebar-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80px;
+    width: 100%;
+}
+.sidebar-link:hover{
+    background-color: rgb(202, 202, 202);
+    cursor: pointer;
+}
+.sidebar-link:active{
+    background-color: rgb(170, 170, 170);
+}
+
+.sidebar-icon{
+    height: 28px;
+    margin-bottom: 4px;
+}
+.sidebar-text{
+    font-size: 11px;
 }
